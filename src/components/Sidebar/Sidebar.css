@@ -1,0 +1,29 @@
+.sidebar {
+	flex: 0 0 30%;
+	background: orangered;
+	display: flex;
+	flex-direction: column;
+}
+
+.sidebar > button {
+	width: 50%;
+	margin: 1rem auto;
+	justify-content: center;
+}
+
+.info-user {
+	display: flex;
+	gap: 2rem;
+	padding: 1rem;
+}
+
+.info-user > img {
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+}
+
+.info-user > p {
+	margin: auto 0;
+	color: white;
+}

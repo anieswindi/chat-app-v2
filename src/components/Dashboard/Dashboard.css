@@ -1,0 +1,16 @@
+.container {
+	flex: 0 0 70%;
+	position: relative;
+}
+
+.row {
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+
+.input {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
